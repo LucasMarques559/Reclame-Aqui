@@ -1,0 +1,63 @@
+body{
+  overflow-x: hidden;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #000000, #808080, #ffffff);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.SAC{
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 20px;
+}
+
+.catchphrase{
+  color: #DC3545;
+  font-family: "Rubik Glitch", system-ui;
+}
+
+.btn-icon{
+  padding-bottom: 3px;
+}
+
+.btn-login{
+  margin-top: 15px;
+}
+
+.title-price{
+  margin: 30px;
+}
+
+.ftr-icon{
+  padding-right: 3px;
+  height: 23px;
+}
+
+.footer{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
